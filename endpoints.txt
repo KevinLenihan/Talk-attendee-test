@@ -1,0 +1,13 @@
+# Get
+GET /talks/add 								-- Go to add talk page
+GET /attendees/add 							-- Go to add attendee page
+
+# POST
+POST /talks/add 							-- Add talk
+POST /attendees/add 						-- Add attendee
+POST /talks/{id}/attendees/{id}/add			-- Add attendee to talk
+
+# Delete
+POST /talks/{id}/remove 					-- Delete talk
+POST /attendees/{id}/remove 				-- Delete attendee
+POST /talks/{id}/attendees/{id}/remove 		-- Remove attendee from talk
